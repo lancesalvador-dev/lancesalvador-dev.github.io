@@ -31,8 +31,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: version control thing
-        run: bundle config set frozen false
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Ruby
