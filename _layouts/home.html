@@ -10,11 +10,41 @@ layout: compress
 
 <head>
     {% include head.html %}
+    <style>
+        video {
+                /** Simulating background-size: cover */
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+    
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            .video-wrapper {
+                /* Telling our absolute positioned video to 
+                be relative to this element */
+                position: relative;
+    
+                /* Will not allow the video to overflow the 
+                container */
+                overflow: hidden;
+                height: 100vh;
+                width: 100vw;
+    
+                /* Centering the container's content vertically 
+                and horizontally */
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
 </head>
 
 <body>
     <div class="video-wrapper">
-        <video playsinline autoplay muted loop poster="assets/img/moonrise-background.jpg">
+        <video playsinline autoplay muted loop poster="assets/img/night skydome.png">
             <source src="https://github.com/user-attachments/assets/9c4e5bf1-4e44-4e71-9b75-41ef7f2b538d" type="video/mp4">
             Your browser does not support the video tag.
         </video>
