@@ -76,14 +76,14 @@ body {
     padding-left: 15px;
     @include center-block();
     // background: linear-gradient(to right,rgb(128, 110, 142),white);	
-		background-color: $white;
+		background-color: rgba(28,28,28,0.8);
     color: $color_shark;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 4.1%;
-    box-shadow: 0 0 10px 0 rgba($color_shark, 0.3);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,1);
     @include transition(0.5s);
     @media #{$small} {
         width: 100%;
@@ -229,4 +229,37 @@ header .entry-meta {
         background-blend-mode: multiply;
         background-position: center center;
     }
+}
+
+// BG Video Formatting 
+video {
+    /** Simulating background-size: cover */
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.video-wrapper {
+    /* Telling our absolute positioned video to 
+    be relative to this element */
+    position: fixed;
+
+    /* Will not allow the video to overflow the 
+    container */
+
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+
+    /* Centering the container's content vertically 
+    and horizontally */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

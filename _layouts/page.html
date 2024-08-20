@@ -13,6 +13,12 @@ layout: compress
 </head>
 
 <body>
+    <div class="video-wrapper">
+        <video id="bg-video" playsinline autoplay muted loop poster="assets/img/night skydome.png">
+            <source src="https://github.com/user-attachments/assets/9c4e5bf1-4e44-4e71-9b75-41ef7f2b538d" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        </div>
     {% include nav.html %}
     <!-- Header -->
     <header class="header" role="banner">
@@ -35,6 +41,7 @@ layout: compress
     <!-- MathJax -->
     <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     {% endif %}
+
 </body>
 
 </html>

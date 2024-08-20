@@ -1,14 +1,15 @@
 # Site
 title: Lance Salvador
-bio: ""
+bio: "Coder and lifelong PC enthusiast based in Canada."
 description: "Software Developer."
 reading_time: true
 words_per_minute: 200
-logo: "assets/img/logo.png"
-background: "assets/video/UNKNOWN.mp4"
+logo: "assets/img/ctb.png"
+background: "night skydome.png" # not sure if this'll actually get used because of the bg video fallback being the same thing
 tiled_bg: false # Set this true if you want to tile your background image, otherwise it will be covered
 locale: en_US
 url: https://lance-salvador888.github.io
+future: true
 
 # Jekyll
 permalink: /:title/

@@ -1,0 +1,34 @@
+---
+layout: post
+title: "'fish' - the discord bot"
+date: 2024-08-16
+excerpt: "A WIP multi-purpose Discord bot."
+tags: [Rust]
+feature: http://i.imgur.com/Ds6S7lJ.png
+comments: true 
+project: true # it took too long to figure out I had to add this line for the post to show up in Projects 
+--- 
+
+<!-- gif of running hi command to fishbot - put "fish" subtitle under the picture -->
+Meet <b>fish</b>, a Discord Bot I built to learn more about Rust, API interaction and bot applications.
+
+{% capture images %}
+https://github.com/user-attachments/assets/463050f7-7a03-4259-9e79-282ef83a5fdd
+https://github.com/user-attachments/assets/26320d41-3eac-4b4a-9525-8c22becddaa5
+{% endcapture %}
+{% include gallery images=images caption="Using the bot's commands" cols=2 %}
+<!-- gif of using the command -->
+
+
+### Planned features
+- Music functionality 
+- GPT chatbot command
+- Time based message purging <i>(i.e. get rid of all messages in the past 15 minutes)</i> to make clearing out my code testing channel easier
+
+
+### Things I've learnt
+- Error handling in Rust is a lot easier compared to other languages
+- Integrating methods from external development libraries in Rust (crates.io)
+- Finding the primary/accent color used in an image
+- Structure of a Discord embed
+
