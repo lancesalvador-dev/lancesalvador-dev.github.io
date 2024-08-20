@@ -4,7 +4,7 @@ title: "'fish' - the discord bot"
 date: 2024-08-16
 excerpt: "A WIP multi-purpose Discord bot."
 tags: [Rust]
-feature: http://i.imgur.com/Ds6S7lJ.png
+feature: https://raw.githubusercontent.com/lance-salvador888/lance-salvador888.github.io/master/assets/img/fish%20bg.jpg
 comments: true 
 project: true # it took too long to figure out I had to add this line for the post to show up in Projects 
 --- 
