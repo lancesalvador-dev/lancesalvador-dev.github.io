@@ -231,13 +231,17 @@ header .entry-meta {
     }
 }
 
-// BG Video Formatting 
+// Video Formatting 
+video {
+    width: 100%;
+    max-width: 850px;
+}
 #bg-video {
     /** Simulating background-size: cover */
     object-fit: cover;
     height: 100vh;
     width: 100vw;
-    
+    max-width: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -266,16 +270,18 @@ header .entry-meta {
 
 // fish video
 .cropper {
-    width: 722px;
+    width: 100%;
     overflow: hidden;
     display: block;
     
 }
 
 #fish-video {
-    margin-right: 400px;
+    width: 120%;
+    margin-right: 20%;
     margin-top: -50px;
 }
-#fish-preview {
 
+#tall-video {
+    width:40%;
 }

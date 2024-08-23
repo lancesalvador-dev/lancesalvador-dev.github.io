@@ -12,7 +12,7 @@ project: true # it took too long to figure out I had to add this line for the po
 <!-- gif of running hi command to fishbot - put "fish" subtitle under the picture -->
 Meet <b>[the fish](https://github.com/lance-salvador888/the-fish)</b>, a Discord Bot I built to learn more about the Rust Programming Language, API interaction and bot applications.
 <div class="cropper">
-<video id="fish-video" width="1000" playsinline autoplay loop muted>
+<video id="fish-video" playsinline autoplay loop muted>
     <source src="https://github.com/user-attachments/assets/3df534a9-f3d1-4005-908c-7fddde1d0932" type="video/mp4">
 </video>
 </div>
