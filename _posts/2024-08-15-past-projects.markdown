@@ -29,7 +29,7 @@ carousels:
 
 
 ## SAIT Final Capstone Group Project
-I lead a 4-person multi-prototype development project, and was responsible for most of the debugging/git management.
+Lead a 4-person multi-prototype development project, and was responsible for most of the debugging/git management.
 
 <!-- couldn't figure out how to easily embed a link into each image {% include carousel.html height="50" unit="%" duration="7" number="1" %} -->
 <figure>
