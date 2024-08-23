@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "'fish' - the discord bot"
+title: "'fish' - a Discord Bot"
 date: 2024-08-16
 excerpt: "A WIP multi-purpose Discord bot."
 tags: [Rust]
@@ -10,25 +10,34 @@ project: true # it took too long to figure out I had to add this line for the po
 --- 
 
 <!-- gif of running hi command to fishbot - put "fish" subtitle under the picture -->
-Meet <b>fish</b>, a Discord Bot I built to learn more about Rust, API interaction and bot applications.
+Meet <b>[fish](https://github.com/lance-salvador888/the-fish)</b>, a Discord Bot I built to learn more about the Rust Programming Language, API interaction and bot applications.
+<div class="cropper">
+<video id="fish-video" width="1000" playsinline autoplay loop muted>
+    <source src="https://github.com/user-attachments/assets/3df534a9-f3d1-4005-908c-7fddde1d0932" type="video/mp4">
+</video>
+</div>
+<figcaption>Video demonstrating fish's commands</figcaption>
 
-{% capture images %}
-https://github.com/user-attachments/assets/463050f7-7a03-4259-9e79-282ef83a5fdd
-https://github.com/user-attachments/assets/26320d41-3eac-4b4a-9525-8c22becddaa5
-{% endcapture %}
-{% include gallery images=images caption="Using the bot's commands" cols=2 %}
-<!-- gif of using the command -->
+### Building fish
+While most of the other commands are generally self explanatory and were pretty straight-forward to build, the most complex part of building 'fish' was making the `~pp` command; which was made to be used by players of the free online rhythm game [osu!](https://osu.ppy.sh/). 
 
+You give 'fish' a link to a 'beatmap' <i>(that's what the different user-generated levels are called)</i>, and he returns an embed displaying the highest amount of Performance Points (PP) you could gain from clearing said beatmap - along with various other bits of information.  
+
+The hardest problem I ran into developing the command is that it took me the longest while to find a method in a library's documentation that returned a specific data type I needed - because the naming of the method lead me to believe it functioned different from what it actually was for. 
+
+The experience ultimately taught me to think outside of the box more, and that some methods may do things other than their name suggests.
+
+### Other things I learnt
+- Using crates.io to implement external Rust libraries and their methods
+- Finding the primary/accent color used in an image
+- Structure of a Discord embed
 
 ### Planned features
 - Music functionality 
 - GPT chatbot command
-- Time based message purging <i>(i.e. get rid of all messages in the past 15 minutes)</i> to make clearing out my code testing channel easier
+- File ext. conversion for video files (e.g. .mkv -> mp4)
+- Time based message purging <i>(e.g. get rid of all messages in the past 15 minutes)</i> to make clearing out my code testing channel easier
 
 
-### Things I've learnt
-- Error handling in Rust is a lot easier compared to other languages
-- Integrating methods from external development libraries in Rust (crates.io)
-- Finding the primary/accent color used in an image
-- Structure of a Discord embed
+You can find fish's source code [here](https://github.com/lance-salvador888/the-fish). 
 

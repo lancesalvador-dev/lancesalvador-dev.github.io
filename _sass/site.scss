@@ -21,7 +21,7 @@ body {
     background-attachment: fixed;
     @media #{$small} {
         background-image: none !important;
-        background: $white;
+        background: $black;
     }
 }
 * {
@@ -76,7 +76,7 @@ body {
     padding-left: 15px;
     @include center-block();
     // background: linear-gradient(to right,rgb(128, 110, 142),white);	
-		background-color: rgba(28,28,28,0.8);
+		background-color: rgba(0,0,0,0.8);
     color: $color_shark;
     z-index: 1;
     display: flex;
@@ -113,11 +113,11 @@ body {
     width: 75%;
     max-width: 850px;
     margin: 4rem auto;
-    background: $white;
-    color: $color_tuatara;
+    background: rgba($black, 0.6);
+    color: $white;
     padding: 2em;
-    border-radius: 3px;
-    box-shadow: 0 0 10px 0 rgba($color_shark, 0.3);
+    border-radius: 4.1%;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,1);
     @include transition(0.5s);
     @media #{$small} {
         width: 90%;
@@ -213,7 +213,7 @@ header .entry-meta {
         margin-left: -4rem;
         margin-right: -4rem;
         margin-top: -2rem;
-        border-radius: 3px 3px 0 0;
+        border-radius: 4.1%;
         background-color: rgba($black, 0.6);
         background-blend-mode: multiply;
         background-position: center center;
@@ -224,7 +224,7 @@ header .entry-meta {
         margin-left: -4rem;
         margin-right: -4rem;
         margin-top: -2rem;
-        border-radius: 3px 3px 0 0;
+        border-radius: 4.1% 4.1% 0 0;
         background-color: rgba($black, 0.6);
         background-blend-mode: multiply;
         background-position: center center;
@@ -232,7 +232,7 @@ header .entry-meta {
 }
 
 // BG Video Formatting 
-video {
+#bg-video {
     /** Simulating background-size: cover */
     object-fit: cover;
     height: 100vh;
@@ -262,4 +262,17 @@ video {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+// fish video
+.cropper {
+    width: 700px;
+    overflow: hidden;
+    display: block;
+    
+}
+
+#fish-video {
+    margin-right: 400px;
+    margin-top: -50px;
 }

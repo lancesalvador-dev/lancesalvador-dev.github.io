@@ -18,7 +18,13 @@ layout: compress
             <source src="https://github.com/user-attachments/assets/9c4e5bf1-4e44-4e71-9b75-41ef7f2b538d" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        </div>
+    </div>
+    <script>
+        $('video').on('ended', function () {
+            this.load();
+            this.play();
+          });
+    </script>
     {% include nav.html %}
     <!-- Header -->
     <header class="header" role="banner">

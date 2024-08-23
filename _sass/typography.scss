@@ -90,13 +90,13 @@ figcaption {
 // links
 a {
   transition: color .4s;
-  color: $color_shark;
+  color: $info;
   &:link {
-  	color: $color_shark;
+  	color: $info;
   }
-  &:visited {
-  	color: $color_tuatara;
-  }
+//   &:visited {
+//   	color: purple;
+//   }
   &:hover {
   	color: blue;
   }
@@ -116,7 +116,7 @@ li code,
 p pre,
 li pre {
     @include font(14);
-    background-color: $color_gray;
+    background-color: $black;
     border: 1px solid $color_mischka;
     @include rounded(4px);
     margin: 0 2px;
