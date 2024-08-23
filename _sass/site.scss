@@ -113,7 +113,7 @@ body {
     width: 75%;
     max-width: 850px;
     margin: 4rem auto;
-    background: rgba($black, 0.6);
+    background: rgba($black, 0.8);
     color: $white;
     padding: 2em;
     border-radius: 4.1%;
@@ -266,7 +266,7 @@ header .entry-meta {
 
 // fish video
 .cropper {
-    width: 700px;
+    width: 722px;
     overflow: hidden;
     display: block;
     
@@ -275,4 +275,7 @@ header .entry-meta {
 #fish-video {
     margin-right: 400px;
     margin-top: -50px;
+}
+#fish-preview {
+
 }
