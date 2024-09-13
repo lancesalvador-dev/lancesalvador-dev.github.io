@@ -19,15 +19,15 @@ Meet <b>[the fish](https://github.com/lance-salvador888/the-fish)</b>, a Discord
 <figcaption>Video demonstrating fish's commands</figcaption>
 
 ### Building the fish
-While most of the fish's other commands are generally self explanatory and were pretty straight-forward to build, the most complex part of building 'fish' was making the `~pp` command; which was made to be used by players of the free online rhythm game [osu!](https://osu.ppy.sh/). 
+While most of the fish's other commands are generally self explanatory and were pretty straight-forward to build, the most complex part of building 'fish' was making the `~pp` command; which was made to be used by players of the free online rhythm game [osu!](https://osu.ppy.sh/). <br>A fellow programmer (and osu! player) friend of mine was a big inspiration and the main reason why I actually built this project, and he was a huge help in directing me to the libraries to do so.
 
-The command takes a link to a 'beatmap' <i>(that's what the different user-generated levels are called)</i>, and the fish replies with an embed displaying the highest amount of Performance Points (PP) you could gain from clearing that beatmap - along with various other bits of information.  
+The command takes a link to a 'beatmap' <i>(what each of the different user-generated levels are called)</i>, and the fish replies with an embed displaying the name of the map, difficulty, the highest amount of Performance Points (PP) you could gain from clearing that beatmap - along with various other bits of information. <br> My favorite feature in building this command was making the left sidebar of the embed match the given map's primary color from its background image. 
 
 The hardest problem I ran into developing the command is that it took me the longest while to find a method in a library's documentation that returned a specific data type I needed - because the naming of the method lead me to believe it functioned different from what it actually was for. 
 
-The experience ultimately taught me to think outside of the box more, and that some methods may do things other than their name suggests.
+The experience ultimately taught me to think outside of the box more, and that some external methods may have been named from a different perspective than you view from.
 
-### Other things I learnt
+### Things I learnt
 - Using crates.io to implement external Rust libraries and their methods
 - Finding the primary/accent color used in an image
 - Structure of a Discord embed
