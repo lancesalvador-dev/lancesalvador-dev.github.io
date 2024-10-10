@@ -1,4 +1,4 @@
-# [lancesalvador-dev.github.io](https://lance-salvador888.github.io)
+# [lancesalvador-dev.github.io](https://lancesalvador-dev.github.io)
 Portfolio website to showcase my past/current projects.
 
 ![page](https://github.com/user-attachments/assets/c5bd2343-5c18-4890-8ed6-94e4f1efecdd)
