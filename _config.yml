@@ -8,7 +8,7 @@ logo: "assets/img/ctb.png"
 background: "night skydome.png" # not sure if this'll actually get used because of the bg video fallback being the same thing
 tiled_bg: false # Set this true if you want to tile your background image, otherwise it will be covered
 locale: en_US
-url: https://lance-salvador888.github.io
+url: https://lancesalvador-dev.github.io
 future: true
 
 # Jekyll
@@ -40,9 +40,9 @@ sass:
 email: lance.salvador888@gmail.com
 #twitter: username
 #facebook: username
-github-url: lance-salvador888
+github-url: lancesalvador-dev
 #stackoverflow: 123456/username   from a "http://stackoverflow.com/users/123456/username" link
-linkedin: lance-salvador888
+linkedin: lancesalvador-dev
 #xing: username
 #instagram: username
 #lastfm: username

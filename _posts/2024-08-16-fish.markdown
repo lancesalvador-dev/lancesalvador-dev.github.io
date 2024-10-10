@@ -4,13 +4,13 @@ title: "'the fish' - a Discord Bot"
 date: 2024-08-16
 excerpt: "A WIP multi-purpose Discord bot."
 tags: [Rust]
-feature: https://raw.githubusercontent.com/lance-salvador888/lance-salvador888.github.io/master/assets/img/fish%20bg.jpg
+feature: https://raw.githubusercontent.com/lancesalvador-dev/lancesalvador-dev.github.io/master/assets/img/fish%20bg.jpg
 comments: true 
 project: true # it took too long to figure out I had to add this line for the post to show up in Projects 
 --- 
 
 <!-- gif of running hi command to fishbot - put "fish" subtitle under the picture -->
-Meet <b>[the fish](https://github.com/lance-salvador888/the-fish)</b>, a Discord Bot I built to learn more about the Rust Programming Language, API interaction and bot applications.
+Meet <b>[the fish](https://github.com/lancesalvador-dev/the-fish)</b>, a Discord Bot I built to learn more about the Rust Programming Language, API interaction and bot applications.
 <div class="cropper">
 <video id="fish-video" playsinline autoplay loop muted>
     <source src="https://github.com/user-attachments/assets/3df534a9-f3d1-4005-908c-7fddde1d0932" type="video/mp4">
@@ -39,5 +39,5 @@ The experience ultimately taught me to think outside of the box more, and that s
 - Time based message purging <i>(e.g. get rid of all messages in the past 15 minutes)</i> to make clearing out my code testing channel easier
 
 
-You can find the fish's source code [here](https://github.com/lance-salvador888/the-fish). 
+You can find the fish's source code [here](https://github.com/lancesalvador-dev/the-fish). 
 
